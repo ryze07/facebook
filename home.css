@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#fundo{
+    position: absolute;
+    top: 30px;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 1000px;
+}
+#fotoc{
+    position: absolute;
+    top: 30px;
+    right: 140px;
+    background-color: red;
+    width: 79%;
+    height: 350px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    background: url(capa.jpg) 50%
+}
+#menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+}
+#fotop{
+    position: absolute;
+    right: 43%;
+    top: 210px;
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    border-radius: 100%;
+    background: url(pp.jpg);
+    border: 5px solid white;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+#nome{
+    position: absolute;
+    background-color: rgb(252, 249, 249);
+    width: 79%;
+    top: 395px;
+    right: 140px;
+    height: 80px;
+    margin: auto;
+    
+}
+#nome h2{
+    text-align: center;
+    margin-top: 8px;
+}
+#nome h3{
+    text-align: center;
+    margin-top: -10px;
+}
+#outros{
+    position: absolute;
+    width: 79%;
+    top: 475px;
+    right: 140px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    margin: auto auto 10px;   
+    border-top: 1px solid rgb(2, 2, 2);
+}
+#outros li{
+    font-family: Verdana;
+    font-size: 12pt;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+#ap{
+    position: absolute;
+    right: 715px;
+    top: 525px;
+    background-color: rgb(236, 236, 236);
+    width: 480px;
+    height: 187px;
+    margin: 0px 0px 0px 100px;
+    padding: 10px;
+    font-size: 10pt;
+    box-shadow: 3px 1px 1px rgb(126, 126, 126);
+}
+#escreva{
+    position: absolute;
+    right: 140px;
+    top: 525px;
+    background-color: rgb(236, 236, 236);
+    width: 40%;
+    height: 87px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgb(126, 126, 126);
+
+    text-align: center;
+}
+#pub{
+    position: absolute;
+    right: 140px;
+    top: 640px;
+    background-color: rgb(236, 236, 236);
+    width: 40%;
+    height: 82px;
+    padding: 5px;
+    box-shadow: 3px 1px 3px rgb(126, 126, 126);
+}
+#pub {
+    font-size: 8pt;
+}
+#canto{
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    width: 340px;
+    height: 80px;
+    display: inline-block;
+   
+}
+#canto li{
+    font-family: Verdana;
+    font-size: 12pt;
+    background-color: lightgrey;
+    margin-right: 1px;
+    margin: 5px;
+    padding: 3px;
+    display: inline-block;
+    font-weight: bold;
+}
+#escreva li{
+    font-family: Verdana;
+    font-size: 12pt;
+    display: inline-block;
+    margin-right: 40px;
+    padding-top: 40px;
+}
+#foto2{
+    position: absolute;
+    top: 25px;
+    right: 500px;
+    width: 30px;
+    height: 30px;
+    background: url(pp.jpg);
+    z-index: 1;
+    background-size: 100%;
+    border-radius: 100%;
+    
+}
